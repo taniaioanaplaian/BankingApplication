@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="anchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ChoiceBox fx:id="client" layoutX="106.0" layoutY="14.0" prefWidth="150.0" />
+      <Label layoutX="14.0" layoutY="19.0" prefHeight="21.0" prefWidth="84.0" text="Client" />
+      <Button fx:id="transfer" layoutX="106.0" layoutY="291.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="150.0" text="Transfer" />
+      <ChoiceBox fx:id="source" layoutX="106.0" layoutY="70.0" prefHeight="31.0" prefWidth="150.0" />
+      <ChoiceBox fx:id="destination" layoutX="106.0" layoutY="123.0" prefWidth="150.0" />
+      <TextField fx:id="money" layoutX="106.0" layoutY="175.0" prefHeight="31.0" prefWidth="150.0" />
+      <Label layoutX="14.0" layoutY="75.0" prefHeight="21.0" prefWidth="68.0" text="Source" />
+      <Label layoutX="18.0" layoutY="128.0" text="Destination" />
+      <Label layoutX="18.0" layoutY="180.0" prefHeight="21.0" prefWidth="59.0" text="Money" />
+      <Label layoutX="308.0" layoutY="19.0" prefHeight="21.0" prefWidth="84.0" text="Company" />
+      <ChoiceBox fx:id="company" layoutX="386.0" layoutY="14.0" prefHeight="31.0" prefWidth="190.0" />
+      <Button fx:id="pay" layoutX="372.0" layoutY="235.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="162.0" text="Pay Bill" />
+      <Button fx:id="getCards" layoutX="136.0" layoutY="235.0" mnemonicParsing="false" text="Get cards" />
+      <Label fx:id="messageLabel" layoutX="411.0" layoutY="113.0" />
+   </children>
+</AnchorPane>

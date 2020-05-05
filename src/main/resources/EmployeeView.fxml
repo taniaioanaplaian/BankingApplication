@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane prefHeight="375" prefWidth="679" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane fx:id="borderPane" layoutX="-2.0" prefHeight="500.0" prefWidth="750.0">
+         <top>
+            <HBox prefHeight="32.0" prefWidth="685.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Button fx:id="addClientButton" mnemonicParsing="false" prefHeight="31.0" prefWidth="192.0" text="Add Client" />
+                  <Button fx:id="addCardButton" mnemonicParsing="false" prefHeight="31.0" prefWidth="164.0" text="View Card" />
+                  <Button fx:id="processTransferButton" mnemonicParsing="false" prefHeight="31.0" prefWidth="229.0" text="Process transfer" />
+                  <Button fx:id="logOutButton" mnemonicParsing="false" prefHeight="31.0" prefWidth="168.0" text="Log out" />
+               </children>
+            </HBox>
+         </top>
+         <center>
+            <AnchorPane fx:id="anchorPane" prefHeight="800.0" prefWidth="700.0" BorderPane.alignment="CENTER" />
+         </center>
+         <left>
+            <Pane prefHeight="347.0" prefWidth="8.0" BorderPane.alignment="CENTER" />
+         </left>
+         <right>
+            <Pane prefHeight="347.0" prefWidth="10.0" BorderPane.alignment="CENTER" />
+         </right>
+         <bottom>
+            <Pane prefHeight="42.0" prefWidth="685.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label fx:id="welcomeLabel" layoutX="189.0" layoutY="4.0" prefHeight="21.0" prefWidth="254.0" />
+               </children>
+            </Pane>
+         </bottom>
+      </BorderPane>
+   </children>
+</AnchorPane>
